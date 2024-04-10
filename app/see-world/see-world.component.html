@@ -1,0 +1,11 @@
+<section>
+    <div class="row">
+        <div class="item" *ngFor="let prop of articles">
+            <img [src]=prop.src class="img-first-row" alt="">
+            <div class="text-content">
+                <h2>{{prop.title}}</h2>
+                <p>{{prop.text}}</p>
+            </div>
+        </div>
+    </div>
+</section>
